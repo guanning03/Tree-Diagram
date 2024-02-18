@@ -5,7 +5,7 @@ A four-issue, out of order RISC-V processor core for computer organization 2023 
 
 Three integer dispatch queues and one store-load dispatch queue.
 
-Support RV32I, with Exception Flow, Sv32 Page Table, 4-way Set-Associative Instruction Cache, Data Cache, Store Buffer, Reorder Buffer and so on.
+Support RV32I, with Exception Flow and Sv32 Page Table.
 
 The best test case yields an IPC (Instructions Per Cycle) of 2.3.
 
