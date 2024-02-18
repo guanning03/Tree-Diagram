@@ -3,10 +3,12 @@ Tree Diagram
 
 A four-issue, out of order RISC-V processor core for computer organization 2023 fall in THU CST.
 
-Supports the RV32I instruction set. Due to time constraints in completing the course assignment, we did not implement a dynamic branch predictor, write-back data cache, or complete support for RISC-V privilege modes (for example, currently, it's even possible to read and write CSR in user mode). 
+Three integer dispatch queues and one instruction dispatch queue.
 
-As of now, the commits on the dev branch are able to boot ucore in Verilator simulation, but they still need to be debugged on an actual FPGA.
+Support RV32I, with Exception Flow, Sv32 Page Table, 4-way Set-Associative Instruction Cache, Data Cache, Store Buffer, Reorder Buffer and so on.
+
+The best test case yields an IPC (Instructions Per Cycle) of 2.3.
 
 A more detailed README and architectural design documents will be supplemented later.
 
-Its name tree-diagram comes from a supercomputer in a anime とある魔術の禁書目録.
+PS: Its name tree-diagram comes from a supercomputer in a anime とある魔術の禁書目録.
